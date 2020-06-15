@@ -48,3 +48,13 @@ print("from zero -2 means i",my_tuple[:-2])
 print("from back ward",my_tuple[-2:])
 
 print("complete ", my_tuple[:])
+
+print(" last element ",my_tuple[-1])
+
+# Changing tuple values
+my_tuple = (4, 2, 3, [6, 5])
+# we cannot assign the values in the tuple they are immutable
+#my_tuple[0]=6
+# but if the element itself is mutable we can change
+my_tuple[3][0] = 9;
+print(" after change ", my_tuple)
