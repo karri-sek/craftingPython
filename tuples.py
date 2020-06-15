@@ -33,3 +33,18 @@ print(n_tuple[1][2])
 my_tuple = ('p', 'e', 'r', 'm', 'i', 't')
 print(my_tuple[-1])
 print(my_tuple[-4])
+
+# Accessing tuple elements using slicing
+my_tuple = ('p','r','o','g','r','a','m','i','z')
+
+print(my_tuple[1:5])
+# from 0 to 3 remember 4 is exclusive here
+print(my_tuple[:4])
+#here 4 is inclusive
+print(my_tuple[4:])
+
+print("from zero -2 means i",my_tuple[:-2])
+
+print("from back ward",my_tuple[-2:])
+
+print("complete ", my_tuple[:])
