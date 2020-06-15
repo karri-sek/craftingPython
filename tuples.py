@@ -58,3 +58,11 @@ my_tuple = (4, 2, 3, [6, 5])
 # but if the element itself is mutable we can change
 my_tuple[3][0] = 9;
 print(" after change ", my_tuple)
+
+tuple1 = 1,2
+tuple2 = 3,4
+sumTuple = tuple1 + tuple2
+print(sumTuple)
+
+tuple3 = (1,2) * 4
+print(tuple3)
