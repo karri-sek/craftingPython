@@ -19,3 +19,8 @@ print(myTuple)
 a , b, c, d  = myTuple
 print(a, b, c, d)
 
+myTuple = ("hello",)
+print(type(myTuple))
+
+myTuple = "hello",
+print(type(myTuple))
